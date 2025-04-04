@@ -71,9 +71,7 @@ To access the admin panel:
 
 
 
-## 📝 License
 
-This project is licensed under the MIT License.
 
 
 
