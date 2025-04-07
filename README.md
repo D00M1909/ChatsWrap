@@ -61,13 +61,13 @@ To access the admin panel:
 ## 📸 Screenshots
 
 - Signup Page:
- ![Screenshot 2025-04-04 201209](https://github.com/user-attachments/assets/156cb604-0d54-415b-8dc3-1acde445dbac)
+ ![Screenshot 2025-04-04 201209](https://github.com/user-attachments/assets/f3eab8f4-6be0-4228-bd01-94b794ce13d5)
 
 - Login Page:
- ![Screenshot 2025-04-04 201224](https://github.com/user-attachments/assets/f604069c-b980-4d79-bf6c-fc291e4421fc)
+ ![Screenshot 2025-04-04 201224](https://github.com/user-attachments/assets/4f59856e-5a55-4040-841b-4b953e7c9927)
 
 - Chatroom:
- ![Screenshot 2025-04-04 201714](https://github.com/user-attachments/assets/033ea8be-676a-48e2-94bb-8a0192a7bbf4)
+ ![Screenshot 2025-04-04 201714](https://github.com/user-attachments/assets/2c8b9f8e-5378-445f-a25e-ecf5d8fb83d0)
 
 
 
