@@ -33,8 +33,8 @@
 
 1. **Clone the repo:**
    ```bash
-   git clone https://github.com/your-username/chatswrap.git
-   cd chatswrap
+   git clone https://github.com/your-username/ChatsWrap.git
+   cd ChatsWrap
    ```
 
 2. **Install dependencies:**
