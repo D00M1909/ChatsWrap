@@ -119,11 +119,12 @@ function Chat() {
 
   
   useEffect(() => {
-    if (!users[user]) {
+    const accounts = JSON.parse(localStorage.getItem("chatswrap-accounts") || "{}");
+    if (!accounts[user]) {
       alert("Your account has been removed.");
       window.location.href = "/";
     }
-  }, [users]);
+  }, [user]);
 
   useEffect(() => {
     const saved = JSON.parse(localStorage.getItem("chatswrap-messages") || "[]");
@@ -264,7 +265,11 @@ function Admin() {
       <h2 className="brand-title">Admin Panel - ChatsWrap</h2>
       <button onClick={clearMessages}>Clear All Chat Messages</button>
       
-      <button onClick={() => window.location.href='/chat'} className="go-chat-btn" style={{ marginTop: "20px", display: "block" }} style={{ marginTop: "15px" }}>
+      <button
+        onClick={() => window.location.href='/chat'}
+        className="go-chat-btn"
+        style={{ marginTop: "20px", display: "block" }}
+      >
         Go to Chatroom
       </button>
 
