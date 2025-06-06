@@ -22,12 +22,19 @@
 
 ## 📦 Project Structure
 
-```
-📁 src/
-├── App.js          # Main application logic and routes
-├── index.js        # Entry point
-├── index.css       # Styling
-```
+``` 
+📁 src/ 
+├── App.js          # Routes setup 
+├── components/     # Individual feature components 
+│   ├── Admin.js 
+│   ├── AdminLogin.js 
+│   ├── Chat.js 
+│   ├── Home.js 
+│   ├── Login.js 
+│   └── Signup.js 
+├── index.js        # Entry point 
+├── index.css       # Styling 
+``` 
 
 ## 🖥️ Usage
 
@@ -56,7 +63,7 @@ To access the admin panel:
 - Navigate to `/admin`
 - Default password: `123`
 
-> You can customize this in `App.js` under `AdminLogin`.
+> You can customize this password in `src/components/AdminLogin.js`.
 
 ## 📸 Screenshots
 
